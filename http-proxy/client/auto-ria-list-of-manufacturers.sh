@@ -1,0 +1,2 @@
+go run hproxy-client.go -url "https://developers.ria.com/auto/categories/1/marks?api_key=$RIA_API_KEY"
+go run hproxy-client.go -url "https://developers.ria.com/auto/categories/2/marks?api_key=$RIA_API_KEY" --min_ttl=1h --max_ttl=3h
